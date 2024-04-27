@@ -1,0 +1,56 @@
+<!-- 
+Static HTML file 
+
+Your page should have a few basic user interface elements:
+-A header tag, with an h1 naming your site, with a title for your page
+-A footer with your name, student ID, and any other info about yourself you wish to include
+-An empty unordered list with an id of showList that is initially hidden.  
+-A div with an id of show that is initially hidden.
+-A form with an id of searchForm.
+-A text input with an id of search_term.
+-A label with a for attribute referencing your input
+-A button to submit the form
+-A link that links back to the "/" route with the text "Back to All Shows" and that has an id of homeLink 
+  -This link will initially be hidden
+  -It will ONLY be displayed when the show element is being displayed or ONLY when a search is performed and search results are being displayed
+  -You should NOT show this link on the initial show list
+  -This link will simply trigger a reload of the page, which then will display the initial list of shows
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Search Show</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+
+  <body>
+    <main>
+      <header><h1>Search Show</h1></header>
+      <form id="searchForm">
+        <label for="search_term">Search:</label>
+        <input id="search_term" />
+        <button type="submit">Search</button>
+      </form>
+
+      <ul id="showList"></ul>
+      <div id="show" ?></div>
+
+      <a href="/" id="homeLink">Back to All Shows</a>
+
+      <footer>Jay Patel 20019207</footer>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

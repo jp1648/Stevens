@@ -1,0 +1,53 @@
+/*
+You will style your page using at least 10 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.prime {
+  color: #00ff00;
+}
+
+.not-prime {
+  color: #ff0000;
+}
+
+.title {
+  color: royalblue;
+  transition: 0.25s ease;
+}
+
+.title:hover {
+  opacity: 0.5;
+}
+
+.error {
+  color: rgb(255, 217, 0);
+}
+
+ol li {
+  transition: 0.25s ease;
+}
+
+ol li:hover {
+  opacity: 0.5;
+}
+
+.footer {
+  color: gray;
+  font-family: "Courier New", Courier, monospace;
+}
+.footer:hover {
+  color: royalblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.submit {
+  color: royalblue;
+}
+
+#palindrome_input {
+  border-color: royalblue;
+}

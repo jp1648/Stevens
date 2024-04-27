@@ -1,0 +1,27 @@
+{{!
+
+If the user is logged in , and 'GET /protected' endpoint is called, you will render this view based on the specs.
+
+}}
+
+<main>
+
+  <div class="prot-body">
+    Welcome
+    {{firstName}}
+    {{lastName}}, the time is now
+    {{currentTime}}. Your role is
+    {{role}}
+  </div>
+
+  {{#if isAdmin}}
+    <div class="prot-admin">
+      <a href="/admin">Go to Admin Route</a>
+    </div>
+  {{/if}}
+
+  <div class="prot-logout">
+    <a href="/logout">Click here to logout</a>
+  </div>
+
+</main>

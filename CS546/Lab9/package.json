@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-9",
+  "version": "1.0.0",
+  "description": "My Lab 9",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jay Patel 20019207",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
