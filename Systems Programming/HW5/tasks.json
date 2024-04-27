@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build with GCC",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-o",
+                "output_file_name",
+                "your_source_code.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
