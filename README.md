@@ -1,2 +1,2 @@
 # Stevens
-School Work pertaining to my Masters Education at Stevens Institute of Technology
+Here are a bunch of "mini projects" done in my Web Development class in my Masters of Science in Computer Science Program at Stevens Institute of Technology
