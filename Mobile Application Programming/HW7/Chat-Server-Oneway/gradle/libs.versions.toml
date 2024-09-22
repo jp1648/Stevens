@@ -1,0 +1,34 @@
+[versions]
+appcompatVersion = "1.7.0"
+espressoCoreVersion = "3.5.1"
+fragmentVersion = "1.8.0"
+guavaVersion = "33.0.0-android"
+junit = "1.1.5"
+junitVersion = "4.13.2"
+lifecycleViewmodelVersion = "2.7.0"
+materialVersion = "1.12.0"
+recyclerviewSelectionVersion = "1.1.0"
+recyclerviewVersion = "1.3.2"
+roomRuntimeVersion = "2.6.1"
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+androidx-fragment = { module = "androidx.fragment:fragment", version.ref = "fragmentVersion" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "junit" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntimeVersion" }
+androidx-room-guava = { module = "androidx.room:room-guava", version.ref = "roomRuntimeVersion" }
+google-material = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+guava = { module = "com.google.guava:guava", version.ref = "guavaVersion" }
+junit = { module = "junit:junit", version.ref = "junitVersion" }
+lifecycle-common-java8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "lifecycleViewmodelVersion" }
+lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata", version.ref = "lifecycleViewmodelVersion" }
+lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime", version.ref = "lifecycleViewmodelVersion" }
+lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycleViewmodelVersion" }
+lifecycle-viewmodel-savedstate = { module = "androidx.lifecycle:lifecycle-viewmodel-savedstate", version.ref = "lifecycleViewmodelVersion" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerviewVersion" }
+recyclerview-selection = { module = "androidx.recyclerview:recyclerview-selection", version.ref = "recyclerviewSelectionVersion" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntimeVersion" }
+
+[plugins]
+
